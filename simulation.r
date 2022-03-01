@@ -24,7 +24,7 @@ ci2a = ci(xa[,2],ya,rho)
 ci3a = ci(x3a,ya,rho)
 cia = c(ci1a,ci2a,ci3a)
 
-## plot simulate data
+## plot simulated data
 x11()
 plot(xa, col = "white", xlab = "x1", ylab = "x2")
 points(x1a, col = 2, pch = 1)
@@ -58,7 +58,7 @@ ci2b = ci(yb,xb[,2],theta)
 ci3b = ci(yb,x3b,theta)
 cib = c(ci1b,ci2b,ci3b)
 
-## plot simulate data
+## plot simulated data
 x11()
 plot(x1b, col = "white", xlab = "x1", ylab = "x2")
 points(x1b, col = 2, pch = 1)
