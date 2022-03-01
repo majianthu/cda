@@ -14,7 +14,7 @@ x11(width = 10, height = 5)
 ggplot(adult, aes(x = edunum, color = sex)) + geom_density(alpha = 0.6) + xlab("Education")
 
 k = 50
-n = 500 # number of samples
+n = 500 # number of the used samples
 ci1 = 0 # ci btw income, education given sex
 ci2 = 0 # ci btw income, sex given education
 for (i in 1:k){
